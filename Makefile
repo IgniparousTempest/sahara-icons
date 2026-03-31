@@ -1,19 +1,24 @@
 SIZES := 16 24 32 48 64 128 256
 SVG_DIR := icons/svg
 PNG_DIR := icons/png
-MSDF_DIR := icons/msdf
-MSDF_SIZE := 64
-MSDF_RANGE := 4
+SDF_DIR := icons/sdf
+SDF_SIZE := 64
+SDF_SPREAD := 8
+ATLAS_PNG := icons/atlas.png
+ATLAS_JSON := icons/atlas.json
 
 SVGS := $(wildcard $(SVG_DIR)/*.svg)
 PNG_TARGETS := $(foreach size,$(SIZES),$(patsubst $(SVG_DIR)/%.svg,$(PNG_DIR)/$(size)x$(size)/%.png,$(SVGS)))
-MSDF_TARGETS := $(patsubst $(SVG_DIR)/%.svg,$(MSDF_DIR)/%.png,$(SVGS))
 
-all: png msdf
+all: png sdf atlas
 
 png: $(PNG_TARGETS)
 
-msdf: $(MSDF_TARGETS)
+sdf: $(SVGS)
+	python3 tools/gen_sdf.py $(SVG_DIR) $(SDF_DIR) $(SDF_SIZE) $(SDF_SPREAD)
+
+atlas: sdf
+	python3 tools/pack_atlas.py $(SDF_DIR) $(ATLAS_PNG) $(ATLAS_JSON)
 
 define size_rule
 $(PNG_DIR)/$(1)x$(1)/%.png: $(SVG_DIR)/%.svg | $(PNG_DIR)/$(1)x$(1)
@@ -25,13 +30,7 @@ endef
 
 $(foreach size,$(SIZES),$(eval $(call size_rule,$(size))))
 
-$(MSDF_DIR)/%.png: $(SVG_DIR)/%.svg | $(MSDF_DIR)
-	msdfgen msdf -svg $< -o $@ -size $(MSDF_SIZE) $(MSDF_SIZE) -pxrange $(MSDF_RANGE)
-
-$(MSDF_DIR):
-	mkdir -p $@
-
 clean:
-	rm -rf $(PNG_DIR) $(MSDF_DIR)
+	rm -rf $(PNG_DIR) $(SDF_DIR) $(ATLAS_PNG) $(ATLAS_JSON)
 
-.PHONY: all png msdf clean
+.PHONY: all png sdf atlas clean

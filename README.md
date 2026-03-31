@@ -23,34 +23,51 @@ Background: `#23456D`
 ## Prerequisites
 
 [librsvg](https://wiki.gnome.org/Projects/LibRsvg) for SVG to PNG conversion.
-[msdfgen](https://github.com/Chlumsky/msdfgen) for MSDF texture generation.
+Python 3 with Pillow, scipy, and numpy for SDF atlas generation.
 
 macOS:
 ```bash
-brew install librsvg cmake
-git clone --branch v1.12 https://github.com/Chlumsky/msdfgen.git
-cd msdfgen && cmake -B build -DMSDFGEN_USE_VCPKG=OFF -DMSDFGEN_USE_SKIA=OFF && cmake --build build && sudo cmake --install build
+brew install librsvg
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 Debian/Ubuntu:
 ```bash
 sudo apt install librsvg2-bin
-# msdfgen must be built from source
-git clone https://github.com/Chlumsky/msdfgen.git
-cd msdfgen && cmake -B build && cmake --build build
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 Fedora:
 ```bash
 sudo dnf install librsvg2-tools
-# msdfgen must be built from source
-git clone https://github.com/Chlumsky/msdfgen.git
-cd msdfgen && cmake -B build && cmake --build build
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
+
+## SDF Atlas
+
+The build pipeline generates a Signed Distance Field (SDF) texture atlas for efficient, resolution-independent icon rendering in OpenGL.
+
+Each icon is rasterised three times — once per design language colour — to isolate each layer. A distance transform is then applied to each layer, producing a greyscale SDF where values above 0.5 are inside the shape and below 0.5 are outside. The three SDFs are packed into the RGB channels of a single image:
+
+| Channel | Colour | Layer |
+|---------|--------|-------|
+| R | `#E8873D` | Primary subject |
+| G | `#0F1B2D` | Reference object |
+| B | `#D6E4F0` | Annotations |
+
+The individual SDF images are then packed into a single texture atlas (`icons/atlas.png`) with a JSON manifest (`icons/atlas.json`) containing pixel coordinates and normalised UV coordinates for each icon.
+
+At render time, a fragment shader samples each channel, applies a smoothstep threshold, and composites the layers with their original colours. This allows icons to scale cleanly to any size without aliasing artefacts.
 
 ## Building
 
-Generate all PNGs and MSDFs:
+Generate all PNGs and SDF atlas:
 ```bash
 make
 ```
@@ -60,9 +77,14 @@ Generate only PNGs:
 make png
 ```
 
-Generate only MSDFs:
+Generate only SDF textures:
 ```bash
-make msdf
+make sdf
+```
+
+Generate atlas:
+```bash
+make atlas
 ```
 
 Clean generated files:

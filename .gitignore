@@ -1,0 +1,6 @@
+.venv/
+icons/png/
+icons/sdf/
+.DS_Store
+icons/atlas.json
+icons/atlas.png
