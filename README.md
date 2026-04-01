@@ -16,6 +16,7 @@ Icons for Sahara CAD software
 | ![tool_line](icons/svg/tool_line.svg) | tool_line | Line |
 | ![tool_point](icons/svg/tool_point.svg) | tool_point | Point |
 | ![tool_rectangle_2_point](icons/svg/tool_rectangle_2_point.svg) | tool_rectangle_2_point | Rectangle (2 Point) |
+| ![tool_select](icons/svg/tool_select.svg) | tool_select | Select |
 | ![tool_sketch](icons/svg/tool_sketch.svg) | tool_sketch | Sketch |
 
 ## Design Language
@@ -25,7 +26,11 @@ Background: `#23456D`
 | Colour | Hex | Usage |
 |--------|-----|-------|
 | Orange | `#E8873D` | Primary subject — the object being acted upon |
+| Orange Highlight | `#F2A96A` | Primary subject — highlighted |
+| Orange Shadow | `#B5642A` | Primary subject — shaded |
 | Dark | `#0F1B2D` | Reference object — the object in relation to |
+| Dark Highlight | `#1E3454` | Reference object — highlighted |
+| Dark Shadow | `#080E18` | Reference object — shaded |
 | Light | `#D6E4F0` | Annotations |
 
 ## Prerequisites
