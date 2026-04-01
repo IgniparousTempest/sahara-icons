@@ -6,9 +6,11 @@ Icons for Sahara CAD software
 | Icon | Name |
 |------|------|
 | ![constraint_coincidence](icons/svg/constraint_coincidence.svg) | constraint_coincidence |
+| ![constraint_distance](icons/svg/constraint_distance.svg) | constraint_distance |
+| ![constraint_divide](icons/svg/constraint_divide.svg) | constraint_divide |
 | ![constraint_parallel](icons/svg/constraint_parallel.svg) | constraint_parallel |
 | ![constraint_perpendicular](icons/svg/constraint_perpendicular.svg) | constraint_perpendicular |
-| ![constraint_distance](icons/svg/constraint_distance.svg) | constraint_distance |
+| ![constraint_symetry](icons/svg/constraint_symetry.svg) | constraint_symetry |
 
 ## Design Language
 
