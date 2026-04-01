@@ -3,14 +3,18 @@ Icons for Sahara CAD software
 
 ## Icons
 
-| Icon | Name |
-|------|------|
-| ![constraint_coincidence](icons/svg/constraint_coincidence.svg) | constraint_coincidence |
-| ![constraint_distance](icons/svg/constraint_distance.svg) | constraint_distance |
-| ![constraint_divide](icons/svg/constraint_divide.svg) | constraint_divide |
-| ![constraint_parallel](icons/svg/constraint_parallel.svg) | constraint_parallel |
-| ![constraint_perpendicular](icons/svg/constraint_perpendicular.svg) | constraint_perpendicular |
-| ![constraint_symetry](icons/svg/constraint_symetry.svg) | constraint_symetry |
+| Icon | Name | Label |
+|------|------|-------|
+| ![constraint_coincidence](icons/svg/constraint_coincidence.svg) | constraint_coincidence | Coincidence Constraint |
+| ![constraint_distance](icons/svg/constraint_distance.svg) | constraint_distance | Distance Constraint |
+| ![constraint_divide](icons/svg/constraint_divide.svg) | constraint_divide | Divide Constraint |
+| ![constraint_parallel](icons/svg/constraint_parallel.svg) | constraint_parallel | Parallel Constraint |
+| ![constraint_perpendicular](icons/svg/constraint_perpendicular.svg) | constraint_perpendicular | Perpendicular Constraint |
+| ![constraint_symetry](icons/svg/constraint_symetry.svg) | constraint_symetry | Symmetry Constraint |
+| ![tool_circle_centre_point](icons/svg/tool_circle_centre_point.svg) | tool_circle_centre_point | Circle (Centre Point) |
+| ![tool_line](icons/svg/tool_line.svg) | tool_line | Line |
+| ![tool_point](icons/svg/tool_point.svg) | tool_point | Point |
+| ![tool_rectangle_2_point](icons/svg/tool_rectangle_2_point.svg) | tool_rectangle_2_point | Rectangle (2 Point) |
 
 ## Design Language
 
