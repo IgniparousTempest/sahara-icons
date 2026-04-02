@@ -5,6 +5,7 @@ Icons for Sahara CAD software
 
 | Icon | Name | Label |
 |------|------|-------|
+| ![constraint_angle](icons/svg/constraint_angle.svg) | constraint_angle | Angle Constraint |
 | ![constraint_coincidence](icons/svg/constraint_coincidence.svg) | constraint_coincidence | Coincidence Constraint |
 | ![constraint_distance](icons/svg/constraint_distance.svg) | constraint_distance | Distance Constraint |
 | ![constraint_divide](icons/svg/constraint_divide.svg) | constraint_divide | Divide Constraint |
