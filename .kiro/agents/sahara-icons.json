@@ -1,0 +1,9 @@
+{
+  "name": "sahara-icons",
+  "description": "Sahara CAD icon library agent",
+  "tools": ["@builtin"],
+  "resources": [
+    "file://README.md",
+    "file://CONTRIBUTING.md"
+  ]
+}
