@@ -5,6 +5,10 @@ Icons for Sahara CAD software
 
 | Icon | Name | Label |
 |------|------|-------|
+| ![action_boolean_difference](icons/svg/action_boolean_difference.svg) | action_boolean_difference | Boolean Difference |
+| ![action_boolean_intersection](icons/svg/action_boolean_intersection.svg) | action_boolean_intersection | Boolean Intersection |
+| ![action_boolean_none](icons/svg/action_boolean_none.svg) | action_boolean_none | Boolean None |
+| ![action_boolean_union](icons/svg/action_boolean_union.svg) | action_boolean_union | Boolean Union |
 | ![constraint_angle](icons/svg/constraint_angle.svg) | constraint_angle | Angle Constraint |
 | ![constraint_coincidence](icons/svg/constraint_coincidence.svg) | constraint_coincidence | Coincidence Constraint |
 | ![constraint_distance](icons/svg/constraint_distance.svg) | constraint_distance | Distance Constraint |
