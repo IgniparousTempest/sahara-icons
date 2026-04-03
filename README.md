@@ -9,6 +9,7 @@ Icons for Sahara CAD software
 | ![constraint_coincidence](icons/svg/constraint_coincidence.svg) | constraint_coincidence | Coincidence Constraint |
 | ![constraint_distance](icons/svg/constraint_distance.svg) | constraint_distance | Distance Constraint |
 | ![constraint_divide](icons/svg/constraint_divide.svg) | constraint_divide | Divide Constraint |
+| ![constraint_horizontal_vertical](icons/svg/constraint_horizontal_vertical.svg) | constraint_horizontal_vertical | Horizontal/Vertical Constraint |
 | ![constraint_parallel](icons/svg/constraint_parallel.svg) | constraint_parallel | Parallel Constraint |
 | ![constraint_perpendicular](icons/svg/constraint_perpendicular.svg) | constraint_perpendicular | Perpendicular Constraint |
 | ![constraint_symetry](icons/svg/constraint_symetry.svg) | constraint_symetry | Symmetry Constraint |
