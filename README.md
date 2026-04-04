@@ -23,7 +23,7 @@ Icons for Sahara CAD software
 | ![tool_fillet](icons/svg/tool_fillet.svg) | tool_fillet | Fillet |
 | ![tool_hole](icons/svg/tool_hole.svg) | tool_hole | Hole |
 | ![tool_line](icons/svg/tool_line.svg) | tool_line | Line |
-| ![tool_move](icons/svg/tool_move.svg) | tool_move | Move |
+| ![tool_move_rotate](icons/svg/tool_move_rotate.svg) | tool_move_rotate | Move Rotate |
 | ![tool_point](icons/svg/tool_point.svg) | tool_point | Point |
 | ![tool_rectangle_2_point](icons/svg/tool_rectangle_2_point.svg) | tool_rectangle_2_point | Rectangle (2 Point) |
 | ![tool_select](icons/svg/tool_select.svg) | tool_select | Select |
