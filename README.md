@@ -28,6 +28,7 @@ Icons for Sahara CAD software
 | ![tool_rectangle_2_point](icons/svg/tool_rectangle_2_point.svg) | tool_rectangle_2_point | Rectangle (2 Point) |
 | ![tool_select](icons/svg/tool_select.svg) | tool_select | Select |
 | ![tool_sketch](icons/svg/tool_sketch.svg) | tool_sketch | Sketch |
+| ![tool_slot_centre_to_centre](icons/svg/tool_slot_centre_to_centre.svg) | tool_slot_centre_to_centre | Slot (Centre to Centre) |
 
 ## Design Language
 
