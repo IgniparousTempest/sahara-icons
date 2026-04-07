@@ -26,8 +26,10 @@ Icons for Sahara CAD software
 | ![tool_move_rotate](icons/svg/tool_move_rotate.svg) | tool_move_rotate | Move Rotate |
 | ![tool_point](icons/svg/tool_point.svg) | tool_point | Point |
 | ![tool_rectangle_2_point](icons/svg/tool_rectangle_2_point.svg) | tool_rectangle_2_point | Rectangle (2 Point) |
+| ![tool_revolve](icons/svg/tool_revolve.svg) | tool_revolve | Revolve |
 | ![tool_select](icons/svg/tool_select.svg) | tool_select | Select |
 | ![tool_sketch](icons/svg/tool_sketch.svg) | tool_sketch | Sketch |
+| ![tool_sketch_fillet](icons/svg/tool_sketch_fillet.svg) | tool_sketch_fillet | Sketch Fillet |
 | ![tool_slot_centre_to_centre](icons/svg/tool_slot_centre_to_centre.svg) | tool_slot_centre_to_centre | Slot (Centre to Centre) |
 
 ## Design Language
