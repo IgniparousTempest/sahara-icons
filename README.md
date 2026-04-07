@@ -30,6 +30,7 @@ Icons for Sahara CAD software
 | ![tool_select](icons/svg/tool_select.svg) | tool_select | Select |
 | ![tool_sketch](icons/svg/tool_sketch.svg) | tool_sketch | Sketch |
 | ![tool_sketch_fillet](icons/svg/tool_sketch_fillet.svg) | tool_sketch_fillet | Sketch Fillet |
+| ![tool_sketch_offset](icons/svg/tool_sketch_offset.svg) | tool_sketch_offset | Sketch Offset |
 | ![tool_slot_centre_to_centre](icons/svg/tool_slot_centre_to_centre.svg) | tool_slot_centre_to_centre | Slot (Centre to Centre) |
 
 ## Design Language
