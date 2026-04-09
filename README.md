@@ -19,6 +19,7 @@ Icons for Sahara CAD software
 | ![constraint_symetry](icons/svg/constraint_symetry.svg) | constraint_symetry | Symmetry Constraint |
 | ![tool_chamfer](icons/svg/tool_chamfer.svg) | tool_chamfer | Chamfer |
 | ![tool_circle_2_point](icons/svg/tool_circle_2_point.svg) | tool_circle_2_point | Circle (2 Point) |
+| ![tool_circle_3_point](icons/svg/tool_circle_3_point.svg) | tool_circle_3_point | Circle (3 Point) |
 | ![tool_circle_centre_point](icons/svg/tool_circle_centre_point.svg) | tool_circle_centre_point | Circle (Centre Point) |
 | ![tool_extrude](icons/svg/tool_extrude.svg) | tool_extrude | Extrude |
 | ![tool_fillet](icons/svg/tool_fillet.svg) | tool_fillet | Fillet |
