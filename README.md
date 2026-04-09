@@ -18,18 +18,18 @@ Icons for Sahara CAD software
 | ![constraint_perpendicular](icons/svg/constraint_perpendicular.svg) | constraint_perpendicular | Perpendicular Constraint |
 | ![constraint_symetry](icons/svg/constraint_symetry.svg) | constraint_symetry | Symmetry Constraint |
 | ![tool_chamfer](icons/svg/tool_chamfer.svg) | tool_chamfer | Chamfer |
-| ![tool_circle_2_point](icons/svg/tool_circle_2_point.svg) | tool_circle_2_point | Circle (2 Point) |
-| ![tool_circle_3_point](icons/svg/tool_circle_3_point.svg) | tool_circle_3_point | Circle (3 Point) |
-| ![tool_circle_centre_point](icons/svg/tool_circle_centre_point.svg) | tool_circle_centre_point | Circle (Centre Point) |
+| ![tool_sketch_circle_2_point](icons/svg/tool_sketch_circle_2_point.svg) | tool_sketch_circle_2_point | Circle (2 Point) |
+| ![tool_sketch_circle_3_point](icons/svg/tool_sketch_circle_3_point.svg) | tool_sketch_circle_3_point | Circle (3 Point) |
+| ![tool_sketch_circle_centre_point](icons/svg/tool_sketch_circle_centre_point.svg) | tool_sketch_circle_centre_point | Circle (Centre Point) |
 | ![tool_extrude](icons/svg/tool_extrude.svg) | tool_extrude | Extrude |
 | ![tool_fillet](icons/svg/tool_fillet.svg) | tool_fillet | Fillet |
 | ![tool_hole](icons/svg/tool_hole.svg) | tool_hole | Hole |
-| ![tool_line](icons/svg/tool_line.svg) | tool_line | Line |
+| ![tool_sketch_line](icons/svg/tool_sketch_line.svg) | tool_sketch_line | Line |
 | ![tool_move_rotate](icons/svg/tool_move_rotate.svg) | tool_move_rotate | Move Rotate |
-| ![tool_point](icons/svg/tool_point.svg) | tool_point | Point |
-| ![tool_rectangle_2_point](icons/svg/tool_rectangle_2_point.svg) | tool_rectangle_2_point | Rectangle (2 Point) |
-| ![tool_rectangle_3_point](icons/svg/tool_rectangle_3_point.svg) | tool_rectangle_3_point | Rectangle (3 Point) |
-| ![tool_rectangle_centre](icons/svg/tool_rectangle_centre.svg) | tool_rectangle_centre | Rectangle (Centre) |
+| ![tool_sketch_point](icons/svg/tool_sketch_point.svg) | tool_sketch_point | Point |
+| ![tool_sketch_rectangle_2_point](icons/svg/tool_sketch_rectangle_2_point.svg) | tool_sketch_rectangle_2_point | Rectangle (2 Point) |
+| ![tool_sketch_rectangle_3_point](icons/svg/tool_sketch_rectangle_3_point.svg) | tool_sketch_rectangle_3_point | Rectangle (3 Point) |
+| ![tool_sketch_rectangle_centre](icons/svg/tool_sketch_rectangle_centre.svg) | tool_sketch_rectangle_centre | Rectangle (Centre) |
 | ![tool_revolve](icons/svg/tool_revolve.svg) | tool_revolve | Revolve |
 | ![tool_select](icons/svg/tool_select.svg) | tool_select | Select |
 | ![tool_sketch](icons/svg/tool_sketch.svg) | tool_sketch | Sketch |
