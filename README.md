@@ -17,6 +17,7 @@ Icons for Sahara CAD software
 | ![constraint_parallel](icons/svg/constraint_parallel.svg) | constraint_parallel | Parallel Constraint |
 | ![constraint_perpendicular](icons/svg/constraint_perpendicular.svg) | constraint_perpendicular | Perpendicular Constraint |
 | ![constraint_symetry](icons/svg/constraint_symetry.svg) | constraint_symetry | Symmetry Constraint |
+| ![tool_sketch_arc_3_point](icons/svg/tool_sketch_arc_3_point.svg) | tool_sketch_arc_3_point | Arc (3 Point) |
 | ![tool_chamfer](icons/svg/tool_chamfer.svg) | tool_chamfer | Chamfer |
 | ![tool_sketch_circle_2_point](icons/svg/tool_sketch_circle_2_point.svg) | tool_sketch_circle_2_point | Circle (2 Point) |
 | ![tool_sketch_circle_3_point](icons/svg/tool_sketch_circle_3_point.svg) | tool_sketch_circle_3_point | Circle (3 Point) |
