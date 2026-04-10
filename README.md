@@ -22,6 +22,7 @@ Icons for Sahara CAD software
 | ![tool_sketch_circle_2_point](icons/svg/tool_sketch_circle_2_point.svg) | tool_sketch_circle_2_point | Circle (2 Point) |
 | ![tool_sketch_circle_2_tangent](icons/svg/tool_sketch_circle_2_tangent.svg) | tool_sketch_circle_2_tangent | Circle (2 Tangent) |
 | ![tool_sketch_circle_3_point](icons/svg/tool_sketch_circle_3_point.svg) | tool_sketch_circle_3_point | Circle (3 Point) |
+| ![tool_sketch_circle_3_tangent](icons/svg/tool_sketch_circle_3_tangent.svg) | tool_sketch_circle_3_tangent | Circle (3 Tangent) |
 | ![tool_sketch_circle_centre_point](icons/svg/tool_sketch_circle_centre_point.svg) | tool_sketch_circle_centre_point | Circle (Centre Point) |
 | ![tool_extrude](icons/svg/tool_extrude.svg) | tool_extrude | Extrude |
 | ![tool_fillet](icons/svg/tool_fillet.svg) | tool_fillet | Fillet |
