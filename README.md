@@ -40,6 +40,13 @@ Icons for Sahara CAD software
 | ![tool_sketch_offset](icons/svg/tool_sketch_offset.svg) | tool_sketch_offset | Sketch Offset |
 | ![tool_slot_centre_to_centre](icons/svg/tool_slot_centre_to_centre.svg) | tool_slot_centre_to_centre | Slot (Centre to Centre) |
 
+## Badges
+
+| Badge | Name | Label |
+|-------|------|-------|
+| ![badge_constraint_coincidence](icons/svg/badge_constraint_coincidence.svg) | badge_constraint_coincidence | Coincidence Constraint |
+| ![badge_constraint_midpoint](icons/svg/badge_constraint_midpoint.svg) | badge_constraint_midpoint | Midpoint Constraint |
+
 ## Design Language
 
 Background: `#23456D`
